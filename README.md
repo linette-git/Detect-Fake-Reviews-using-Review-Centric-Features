@@ -20,25 +20,39 @@ Logistic regression model was trained on the train data for both CountVectorizer
 # Results
 
 # Comparing CountVectorizer and Tf-idf 
+## CountVectorizer
 
-           CountVectorizer  Tf-idf
+Accuracy => 0.79         
+
+Recall => 0.85          
+
+Precision => 0.76          
+
+## Tf-idf
            
-Accuracy       0.79          0.78
+Accuracy => 0.78
 
-Recall         0.85          0.80
+Recall => 0.80
 
-Precision      0.76          0.77
+Precision => 0.77
 
 logistic regression model with Tf-idf and CountVectorizer using review-centric features performs extremely well on our dataset by achieving an accuracy of 78% and 79% respectively.
 
 # Comparing with Verified_Purchased and without Verified_Purchased
+## with Verified Purchased
 
-            with Verified_Purchased  without Verified_Purchased
+Accuracy => 0.79         
+
+Recall => 0.85          
+
+Precision => 0.76       
+
+## without Verified_Purchased
             
-Accuracy           0.79                      0.64
+Accuracy => 0.64
 
-Recall             0.85                      0.62
+Recall => 0.62
 
-Precision          0.76                      0.64
+Precision => 0.64
 
 logistic regression model with CountVectorizer using “verified purchase” feature is 79% whereas when the feature is not used for classification, the same model achieves an accuracy of 64%. This result suggests that the “verified purchase” feature is very effective for identifying fake reviews. 
