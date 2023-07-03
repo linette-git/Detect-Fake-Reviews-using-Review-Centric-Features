@@ -19,8 +19,8 @@ Logistic regression model was trained on the train data for both CountVectorizer
 
 # Results
 
-# Comparing CountVectorizer and Tf-idf 
-## CountVectorizer
+## Comparing CountVectorizer and Tf-idf 
+### CountVectorizer
 
 Accuracy => 0.79         
 
@@ -28,7 +28,7 @@ Recall => 0.85
 
 Precision => 0.76          
 
-## Tf-idf
+### Tf-idf
            
 Accuracy => 0.78
 
@@ -38,8 +38,8 @@ Precision => 0.77
 
 logistic regression model with Tf-idf and CountVectorizer using review-centric features performs extremely well on our dataset by achieving an accuracy of 78% and 79% respectively.
 
-# Comparing with Verified_Purchased and without Verified_Purchased
-## with Verified Purchased
+## Comparing with Verified_Purchased and without Verified_Purchased
+### with Verified Purchased
 
 Accuracy => 0.79         
 
@@ -47,7 +47,7 @@ Recall => 0.85
 
 Precision => 0.76       
 
-## without Verified_Purchased
+### without Verified_Purchased
             
 Accuracy => 0.64
 
