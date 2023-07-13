@@ -1,8 +1,8 @@
-# Detect-Fake-Reviews-using-Review-Centric-Features
+# Detect-Fake-Reviews-using-Reviewer-Centric-Features
 Fake review detection helps organizations by maintaining their reputation, building consumer trust, enabling better decision-making based on genuine reviews, and improving product quality. 
 
 # Abstract
-The impact of reviews on any e-commerce site is of great importance, as it can be the base for a buyer's decision to buy any product. Buyer tries to evaluate the authenticity and quality of the product using the feedback given by other previous buyers in the form of review. But, sellers are taking advantage of the reviews by posting reviews in an attempt to promote or defame a product. Such reviews which are not a genuine opinion of an individual are termed as fake reviews. The existence of such fake reviews makes the buyer unable to make the right judgments of sellers, which can also cause the credibility of the platform to be downgraded. Thus, it is very important to identify the fake reviews on the platform. This Project will help to detect such fake reviews using a logistic regression model by considering review centric features. 
+The impact of reviews on any e-commerce site is of great importance, as it can be the base for a buyer's decision to buy any product. Buyer tries to evaluate the authenticity and quality of the product using the feedback given by other previous buyers in the form of review. But, sellers are taking advantage of the reviews by posting reviews in an attempt to promote or defame a product. Such reviews which are not a genuine opinion of an individual are termed as fake reviews. The existence of such fake reviews makes the buyer unable to make the right judgments of sellers, which can also cause the credibility of the platform to be downgraded. Thus, it is very important to identify the fake reviews on the platform. This Project will help to detect such fake reviews using a logistic regression model by considering reviewer centric features. 
 
 # Dataset
 Link:- https://www.kaggle.com/datasets/lievgarcia/amazon-reviews
@@ -36,7 +36,7 @@ Recall => 0.80
 
 Precision => 0.77
 
-logistic regression model with Tf-idf and CountVectorizer using review-centric features performs extremely well on our dataset by achieving an accuracy of 78% and 79% respectively.
+logistic regression model with Tf-idf and CountVectorizer using reviewer-centric features performs extremely well on our dataset by achieving an accuracy of 78% and 79% respectively.
 
 ## Comparing with Verified_Purchased and without Verified_Purchased
 ### with Verified Purchased
