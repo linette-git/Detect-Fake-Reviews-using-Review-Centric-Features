@@ -43,15 +43,15 @@ Naive Bayes model with Tf-idf and CountVectorizer using reviewer-centric feature
 
 Accuracy => 0.79         
 
-Recall => 0.85          
+Recall => 0.81          
 
-Precision => 0.76       
+Precision => 0.72       
 
 ### without Verified_Purchased
             
 Accuracy => 0.64
 
-Recall => 0.62
+Recall => 0.54
 
 Precision => 0.64
 
